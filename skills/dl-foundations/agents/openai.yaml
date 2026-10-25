@@ -1,0 +1,4 @@
+interface:
+  display_name: "深度学习基础带练"
+  short_description: "用中文练习张量、梯度与网络基础并检查常见 PyTorch 训练错误"
+  default_prompt: "请使用 $dl-foundations 用一个小例子讲清当前深度学习概念，并给我一道独立变式题。"

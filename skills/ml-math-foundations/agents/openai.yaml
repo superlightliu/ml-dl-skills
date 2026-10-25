@@ -1,0 +1,4 @@
+interface:
+  display_name: "机器学习数学阅读导航"
+  short_description: "按问题定位数学原书，核对矩阵形状、推导前提和学习薄弱点"
+  default_prompt: "请用 $ml-math-foundations 帮我定位这个公式的数学前提，检查维度并设计一个原创小例子。"

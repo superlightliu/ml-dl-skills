@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "status": "not_run",
+  "task": null,
+  "input_schema": null,
+  "output_schema": null,
+  "data": {
+    "source": null,
+    "version_or_hash": null,
+    "observation_unit": null,
+    "label_definition": null,
+    "prediction_time_information": null
+  },
+  "split": {
+    "method": null,
+    "train": null,
+    "validation": null,
+    "test": null
+  },
+  "fit_boundaries": [],
+  "selection_rule": null,
+  "baseline": null,
+  "environment": {
+    "python": null,
+    "packages": {},
+    "device": null
+  },
+  "metrics": [],
+  "artifacts": [],
+  "recovery": {
+    "requested_scope": null,
+    "comparison_inputs": null,
+    "tolerance": null,
+    "checks": []
+  },
+  "limitations": [],
+  "official_sources": [],
+  "started_at": null,
+  "finished_at": null
+}

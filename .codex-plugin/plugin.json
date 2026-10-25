@@ -1,0 +1,9 @@
+{
+  "name": "ml-dl-skills",
+  "version": "0.1.0",
+  "description": "中文机器学习与深度学习学习技能合集",
+  "author": {
+    "name": "superlightliu"
+  },
+  "skills": "./skills/"
+}

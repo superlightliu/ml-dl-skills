@@ -1,0 +1,4 @@
+interface:
+  display_name: "概率机器学习入门阅读导航"
+  short_description: "从概率对象出发阅读 PML 入门，核对推断、决策与不确定性"
+  default_prompt: "请用 $probabilistic-ml-intro 帮我明确概率对象、建模假设和评价目标，并定位相关阅读。"

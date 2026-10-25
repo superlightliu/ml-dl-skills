@@ -1,0 +1,4 @@
+interface:
+  display_name: "Understanding Deep Learning 阅读导航"
+  short_description: "按问题阅读 UDL，核对计算图、模型假设并设计原创自测"
+  default_prompt: "请用 $understanding-deep-learning 帮我定位 UDL 中相关主题，并检查我的计算图理解。"

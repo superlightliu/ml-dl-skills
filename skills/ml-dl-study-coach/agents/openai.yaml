@@ -1,0 +1,4 @@
+interface:
+  display_name: "机器学习与深度学习教练"
+  short_description: "中文机器学习带练、教材导航与基于真实作答的学习进度评估"
+  default_prompt: "请使用 $ml-dl-study-coach 根据我的学习目标选择起点，并用一道练习检查理解。"

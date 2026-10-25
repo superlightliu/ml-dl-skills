@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ml-dl-skills",
+  "version": "0.1.0",
+  "description": "中文机器学习与深度学习带练、八本教材阅读导航和可信实验工作流。",
+  "author": {
+    "name": "superlightliu",
+    "url": "https://github.com/superlightliu"
+  },
+  "homepage": "https://github.com/superlightliu/ml-dl-skills",
+  "repository": "https://github.com/superlightliu/ml-dl-skills",
+  "license": "MIT",
+  "keywords": [
+    "machine-learning",
+    "deep-learning",
+    "education",
+    "agent-skills",
+    "chinese"
+  ]
+}

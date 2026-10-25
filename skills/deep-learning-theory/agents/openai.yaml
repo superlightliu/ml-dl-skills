@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Learning 理论阅读导航"
+  short_description: "沿经典 Deep Learning 原书核对理论、数值条件和生成建模"
+  default_prompt: "请用 $deep-learning-theory 帮我定位经典教材中的相关理论，核对符号并设计一个反例检查。"

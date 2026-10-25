@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "learner": null,
+  "goal": null,
+  "current_topic": null,
+  "status": "not_assessed",
+  "topics": {
+    "data_and_splits": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    },
+    "linear_models_and_metrics": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    },
+    "model_selection": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    },
+    "tabular_project": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    },
+    "tensors_and_training": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    },
+    "deep_learning_project": {
+      "status": "not_assessed",
+      "evidence_ids": []
+    }
+  },
+  "evidence": [],
+  "updated_at": null
+}

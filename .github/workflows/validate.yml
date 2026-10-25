@@ -1,0 +1,32 @@
+name: Validate skills
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.13']
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      ML_DL_SKILLS_TEST_ROOT: ${{ runner.temp }}/ml-dl-skills-tests
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate collection
+        run: python -B scripts/validate.py
+      - name: Test installer and validation boundaries
+        run: python -B -m unittest discover -s tests -v
+      - name: Install the real collection in isolation
+        shell: bash
+        run: |
+          python -B scripts/install.py --dest "$RUNNER_TEMP/ml-dl-installed/.agents/skills"
+          python -B scripts/install.py --dest "$RUNNER_TEMP/ml-dl-installed/.agents/skills" --apply
+          python -B scripts/install.py --dest "$RUNNER_TEMP/ml-dl-installed/.agents/skills" --apply

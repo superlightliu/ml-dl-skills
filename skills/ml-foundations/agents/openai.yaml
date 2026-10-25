@@ -1,0 +1,4 @@
+interface:
+  display_name: "机器学习基础阅读与带练"
+  short_description: "结合官方统计学习教材，带练建模基础、验证设计与常见误区"
+  default_prompt: "请用 $ml-foundations 帮我理解当前机器学习问题，检查数据划分并给一道原创诊断题。"

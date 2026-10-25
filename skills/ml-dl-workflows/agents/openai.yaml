@@ -1,0 +1,4 @@
+interface:
+  display_name: "机器学习工程工作流"
+  short_description: "连接数据切分、可信评估与模型恢复的六类机器学习工程方案"
+  default_prompt: "请使用 $ml-dl-workflows 为我的数据任务设计包含基线、评估和模型恢复的最小实验。"

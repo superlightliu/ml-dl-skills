@@ -1,0 +1,4 @@
+interface:
+  display_name: "高级统计学习阅读导航"
+  short_description: "围绕 ESL 阅读统计方法，核对损失约定、验证层级与理论条件"
+  default_prompt: "请用 $statistical-learning-theory 帮我定位 ESL 相关主题，并比较方法假设与验证条件。"

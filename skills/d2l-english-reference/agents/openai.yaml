@@ -1,0 +1,4 @@
+interface:
+  display_name: "D2L 英文教材阅读与实现导航"
+  short_description: "连接 D2L 英文概念与实现，核对张量形状、依赖版本和训练评价"
+  default_prompt: "请用 $d2l-english-reference 帮我读懂这段 D2L 代码，核对张量形状和隐藏的辅助函数。"
